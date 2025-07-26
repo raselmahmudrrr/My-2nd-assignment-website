@@ -45,3 +45,12 @@ nav{
     align-items: center;
     gap: 5px;
 }
+/* Banner-section */
+.section{
+    display: flex;
+    margin-left: 9.37rem;
+    margin-right: 9.37rem;
+    margin-top: 1.25rem;
+    align-items:center;
+    justify-content: center;
+}
