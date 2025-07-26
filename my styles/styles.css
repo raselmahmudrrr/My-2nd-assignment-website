@@ -53,4 +53,37 @@ nav{
     margin-top: 1.25rem;
     align-items:center;
     justify-content: center;
+}/* plant-section */
+.font-siz{
+    font-weight: 800;
+    font-size: 3.12rem;
+}
+
+.button{
+    background-color: #E95A08;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 100%;
+    height: 3.12rem;
+}
+
+.plant-description{
+    text-align: center;
+    margin-left: 9.37rem;
+    margin-right: 9.37rem;
+}
+
+
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-left: 9.37rem;
+    margin-right: 9.37rem;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 3.12rem;
+    
 }
