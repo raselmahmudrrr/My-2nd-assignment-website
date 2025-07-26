@@ -1,0 +1,47 @@
+/* Font*/
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-font-2 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    margin: 30px auto;
+    max-width: 1140px;
+}
+.logo img{
+    height: 82px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
