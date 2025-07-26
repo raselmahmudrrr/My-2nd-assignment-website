@@ -122,3 +122,48 @@ nav{
     width: 17.8rem;
     height: 17.8rem;
 }
+/* Latest-Deals */
+.Deals{
+    text-align: center;
+    justify-content: center;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+.deals-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    /* height: 450px; */
+    min-height: 450px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.deal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+.deal a{
+    color: #FFFFFF;
+}
+.deal-1{
+    background-image: url(../assets/deal-bloom.png);
+    border-radius: 14px;
+}
+.deal-2{
+    background-image: url(../assets/deal-ana.png);
+     border-radius: 14px;
+}
+.deal-3{
+    background-image: url(../assets/deal-zabo.png);
+     border-radius: 22px;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+}
