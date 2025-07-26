@@ -86,4 +86,39 @@ nav{
     justify-content: center;
     margin-top: 3.12rem;
     
+}/* plant-lover-section */
+
+.plant-lover{
+    display: flex;
+    gap: 3.75rem;
+    margin-top: 12.5rem;
+     margin-left: 9.37rem;
+    margin-right: 9.37rem;
+    position: relative;
+
+}
+.img-2{
+    width: 33.75rem;
+    height: 37.31rem;
+}
+.box-1{
+    width: 33.75rem;
+    height: 32.56rem;
+}
+.box-1 h2{
+    font-weight: 800;
+   font-size: 3.125rem;
+}
+.box-1 ul li{
+    
+    color: #00000098;
+    padding-bottom: 0.625rem;
+    
+}
+.img-3{
+    position: absolute;
+    top: -125px;
+    left: 350px;
+    width: 17.8rem;
+    height: 17.8rem;
 }
